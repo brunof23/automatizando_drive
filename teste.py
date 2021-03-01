@@ -19,7 +19,7 @@ def wait_loading():
 driver.get('https://gshow.globo.com/realities/bbb/bbb21/votacao/paredao-bbb21-vote-para-eliminar-fiuk-nego-di-ou-sarah-fc1cc356-3a7d-452f-9d55-50e4f0902e54.ghtml')
 driver.find_element_by_id('barra-item-login').click()
 driver.find_element_by_name('login').send_keys('brunoferreira.tecnico@gmail.com')
-driver.find_element_by_name('password').send_keys('brunorock')
+driver.find_element_by_name('password').send_keys('')
 driver.find_element_by_class_name('button').click()
 
 wait_loading()
